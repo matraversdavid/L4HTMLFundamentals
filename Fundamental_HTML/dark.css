@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color:aqua;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:oldlace;
+}
+
+a{
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover{
+    color:white;
+    transition: 0.2s;
+}
+
+
+
+h1{
+    font-size: 72px;
+    font-family: 'Caveat', cursive;
+}
+
+h3{
+    font-size: 36px;
+    font-family: 'Caveat', cursive;
+}
+
+#navbar{
+    background-color: #1c2927;
+    padding: 50px 0 50px 0;
+}
+
+#welcome{
+    background-color:#171c22;
+    padding: 25px 0 25px 0;
+}
+
+p{
+    margin: 0 0 0 0;
+    font-size: 18px;
+}
+
+#maserati{
+    background-color:#1d292c;
+    padding: 25px 0 25px 0;
+}
+
+#bmw{
+    background-color:#1e2c25;
+    padding: 25px 0 25px 0;
+}
+
+footer{
+    background-color: #181a24;
+    padding: 25px 0 25px 0;
+}

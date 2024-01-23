@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    <link id="theme" rel="stylesheet" href="light.css">
+    <title>Gallery</title>
+    <style>
+        table{
+            text-align: center;
+        }
+        table, th, td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="changeCSS()" id="darkButton">Dark Mode</button>
+    <center>
+    <a href="index.html">Homepage</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+
+    <h1>Gallery</h1>
+
+    <table>
+        <tr>
+            <th>Manufacturer</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>Fiesta</td>
+            <td>2023</td>
+            <td><img src="images/ford_fiesta.jpg" width="50%"></td>
+        </tr>
+        <tr>
+            <td>Vauxhall</td>
+            <td>Corsa</td>
+            <td>2015</td>
+            <td><img src="images/vauxhall_corsa.jpg" width="50%"></td>
+        </tr>
+    </table>
+
+    <br>
+    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NMThdHhrLoM?si=ydCojP4sAnkoEk6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

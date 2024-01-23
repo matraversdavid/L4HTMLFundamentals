@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!--Link to Icon-->
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    
+<!--Link to Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ubuntu:wght@500&family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+
+<!--Link to custom CSS sheet-->
+<link id="theme" rel="stylesheet" href="light.css">
+
+    <title>Contact</title>
+</head>
+<body>
+<center>
+    <a href="index.html">Homepage</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+    
+    <h1>Contact</h1>
+    <button onclick="changeCSS()" id="darkButton">Dark Mode</button>
+    <p>Please fill in the form below to contact me.</p>
+
+    <form>
+        <label for="name"><b>Name</b></label><br>
+        <input id="name" type="text" placeholder="Please enter your name..."><br>
+        <label for="email"><b>Email</b></label><br>
+        <input id="email" type="email" placeholder="Please enter your email..."><br>
+        <label for="phone"><b>Phone</b></label><br>
+        <input id="phone" type="tel" placeholder="Please enter your phone number..."><br>
+        <label for="message"><b>Message</b></label><br>
+        <textarea id="message" cols="21" rows="10"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>
